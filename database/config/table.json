@@ -1,0 +1,237 @@
+{
+    "users": {
+        "userName": "String",
+        "password": "String",
+        "mobile": "String",
+        "email": "String",
+        "sex": "Number",
+        "workNo": "String",
+        "orgId": [],
+        "roleIds": [],
+        "state": "Number"
+    },
+    "menus": {
+        "id": "Number",
+        "pid": "Number",
+        "name": "String",
+        "icon": "String",
+        "href": "String",
+        "sort": "Number",
+        "state": "Number"
+    },
+    "roles": {
+        "id": "Number",
+        "pid": "Number",
+        "name": "String",
+        "state": "Number",
+        "sort": "Number"
+    },
+    "roleMenus": {
+        "roleId": "Number",
+        "menuId": "Number"
+    },
+    "xtcs": {
+        "csName": "String",
+        "csValue": "String",
+        "csNote": "String",
+        "orgId": "Number"
+    },
+    "orgs": {
+        "id": "Number",
+        "name": "String"
+    },
+
+    "plans": {
+        "id": "Number",
+        "classify": "Number",
+        "type": "Number",
+        "summary": "String",
+        "note": "String",
+        "sort": "Number",
+        "userId": "String",
+        "planDate": "Date",
+        "state": "Number",
+        "orgId": "Number"
+    },
+    "enumTypes": {
+        "id": "Number",
+        "key": "String",
+        "name": "String"
+    },
+    "enums": {
+        "enumTypeId": "Number",
+        "id": "Number",
+        "name": "String"
+    },
+    "counters": {
+        "sequence_key": "String",
+        "sequence_value": "Number"
+    },
+    "imgs": {
+        "content": "String",
+        "fileName": "String",
+        "type": "String",
+        "size": "Number"
+    },
+    "products": {
+        "id": "Number",
+        "name": "String",
+        "logo": "String",
+        "note": "String",
+        "createDate": "Date",
+        "state": "Number",
+        "orgId": "Number"
+    },
+    "backlogs": {
+        "id": "Number",
+        "name": "String",
+        "important": "Number",
+        "estimate": "Number",
+        "how": "String",
+        "where": "Number",
+        "note": "String",
+        "track": "String",
+        "productId": "Number",
+        "sprintId": "Number",
+        "createUserId": "String",
+        "uiUserId": "String",
+        "testUserId": "String",
+        "startTestDate": "Date",
+        "endTestDate": "Date",
+        "state": "Number",
+        "tasks": [],
+        "orgId": "Number",
+        "createDate": "Date",
+        "commentId": "Number"
+    },
+    "sprints": {
+        "id": "Number",
+        "name": "String",
+        "value": "String",
+        "sm": "String",
+        "po": "String",
+        "teams": [],
+        "productId": "Number",
+        "planMeetings": [],
+        "demoMeeting": "Date",
+        "startDate": "Date",
+        "publishDate": "Date",
+        "state": "Number",
+        "orgId": "Number"
+    },
+    "comments": {
+        "id": "Number",
+        "comments": []
+    },
+    "bugs": {
+        "id": "String",
+        "name": "String",
+        "summary": "String",
+        "level": "Number",
+        "productId": "Number",
+        "track": "String",
+        "sprintId": "Number",
+        "system": "Number",
+        "commentId": "Number",
+        "attachs": [],
+        "orbits": [],
+        "state": "Number",
+        "curUserId": "String",
+        "solution": "String",
+        "solutionType": "Number",
+        "backlogId": "Number",
+        "commitUser": "String",
+        "createTime": "Date",
+        "orgId": "Number"
+    },
+    "bugOrbit": {
+        "bugId": "String",
+        "fromUserId": "String",
+        "toUserId": "String",
+        "optUserId": "String",
+        "optTime": "Date",
+        "stayTime": "Number",
+        "state": "Number"
+    },
+    "rushJobs": {
+        "userId": "String",
+        "userName": "String",
+        "workNo": "Number",
+        "workNote": "String",
+        "isConfirm": "Boolean",
+        "orgId": "Number",
+        "startTime": "Date",
+        "endTime": "Date",
+        "isHoliday": "Boolean"
+    },
+    "messages": {
+        "id": "Number",
+        "userId": "String",
+        "type": "Number",
+        "content": "String",
+        "createTime": "Date"
+    },
+    "shareCourses": {
+        "id": "Number",
+        "name": "String",
+        "content": "String",
+        "type": "Number",
+        "tags": [],
+        "pariseCount": "Number",
+        "commentCount": "Number",
+        "commentId": "Number",
+        "viewCount": "Number",
+        "createUserId": "String",
+        "banner": "String",
+        "createDate": "Date",
+        "original": "Boolean"
+    },
+    "buildMoney": {
+        "buildDate": "Date",
+        "costMoney": "Number",
+        "costType": "String",
+        "note": "String",
+        "orgId": "Number"
+    },
+    "deployhistory": {
+        "optTime": "Date",
+        "optUser": "String",
+        "state": "Number",
+        "serverName": "String",
+        "serverType": "Number",
+        "restartUrl": "String",
+        "checkUrl": "String",
+        "orgId": "Number"
+    },
+    "subscription": {
+        "type": "Number",
+        "typeName": "String",
+        "userId": []
+    },
+    "testset": {
+        "id": "Number",
+        "name": "String",
+        "sort": "Number",
+        "children": [],
+        "note": "String",
+        "orgId":"Number",
+        "productId": "Number"
+    },
+    "testcase": {
+        "id": "Number",
+        "name": "String",
+        "setId": "Number",
+        "summary": "String",
+        "sort": "Number",
+        "type": "Number",
+        "beforeCondition": "String",
+        "step": [],
+        "hope": "String",
+        "createUserId": "String",
+        "createTime": "Date",
+        "backlogId": "Number",
+        "orgId": "Number",
+        "sprintId": "Number",
+        "productId": "Number"
+    }
+}

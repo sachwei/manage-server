@@ -41,7 +41,7 @@ function ewLogin(req, res){
   let userName = decodeURIComponent(getParamter(req, 'userName'));
   let password = decodeURIComponent(getParamter(req, 'password'));
   let conditions = {
-    email: userName
+    'userName': userName
   }
   return new Promise((resolve, reject) => {
     MongoDB.findOne('users', conditions, (err, docs) => {

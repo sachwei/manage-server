@@ -56,7 +56,6 @@ app.use(session({
 }));
 
 // mongodb config
-mongoose.connect('mongodb://118.24.112.95:27017/work', { user: "yemanman", pass: "k2ehwc7n!@" });
 
 // init router
 app.use(function (req, res, next) {    

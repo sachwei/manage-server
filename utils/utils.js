@@ -1,6 +1,6 @@
 /*
  * 公共方法.
- * @Author: sachuangwei@ygsoft.com
+ * @Author: 490232365@qq.com
  * @Date: 2018-07-09 10:51:18
  * @Last Modified time: 2018-07-09 10:51:18
  */

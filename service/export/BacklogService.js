@@ -36,7 +36,7 @@ class RtcBacklogService extends ExportService {
           backlog.important,
           this.dataFormater('users', backlog.createUserId, 'email', 'userName'),
           backlog.estimate,
-          'https://im.ygsoft.com/work/#/backlog/view/' + backlog.id
+          'https://***.com/work/#/backlog/view/' + backlog.id
         ])
       }
       resolve(rowDatas)

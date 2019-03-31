@@ -2,7 +2,7 @@
  * Created by sachuangwei on 2017-07-20.
  */
 var axios = require('axios');
-let host = "s://yg.ismartwork.cn";
+let host = "s://***.cn";
 let baseURL = "http" + host + "/webapp/restful";
 let axiosConfig = {
   baseURL
